@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/title1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/public_zone"
+            android:textSize="@dimen/cal_title"
+            android:layout_marginTop="@dimen/main_top_margin"
+            android:layout_marginStart="@dimen/main_card_margin"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <TextView
+            android:id="@+id/title1_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cal_title_desc_1"
+            android:textSize="@dimen/cal_title_desc"
+            android:layout_marginStart="@dimen/main_card_margin"
+            app:layout_constraintBottom_toBottomOf="@+id/title1"
+            app:layout_constraintStart_toEndOf="@+id/title1"/>
+
+        <include
+            android:id="@+id/common_1"
+            layout="@layout/item_select_card"
+            android:layout_width="@dimen/card_width_big"
+            android:layout_height="@dimen/card_height_big"
+            android:layout_marginTop="@dimen/main_top_margin"
+            android:layout_marginStart="@dimen/main_card_margin"
+            app:layout_constraintTop_toBottomOf="@+id/title1"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <include
+            android:id="@+id/common_2"
+            layout="@layout/item_select_card"
+            android:layout_width="@dimen/card_width_big"
+            android:layout_height="@dimen/card_height_big"
+            android:layout_marginStart="@dimen/main_card_margin"
+            app:layout_constraintTop_toTopOf="@+id/common_1"
+            app:layout_constraintStart_toEndOf="@+id/common_1"/>
+
+        <include
+            android:id="@+id/common_3"
+            layout="@layout/item_select_card"
+            android:layout_width="@dimen/card_width_big"
+            android:layout_height="@dimen/card_height_big"
+            android:layout_marginStart="@dimen/main_card_margin"
+            app:layout_constraintTop_toTopOf="@+id/common_2"
+            app:layout_constraintStart_toEndOf="@+id/common_2"/>
+
+        <include
+            android:id="@+id/common_4"
+            layout="@layout/item_select_card"
+            android:layout_width="@dimen/card_width_big"
+            android:layout_height="@dimen/card_height_big"
+            android:layout_marginStart="@dimen/main_card_margin_2"
+            app:layout_constraintTop_toTopOf="@+id/common_3"
+            app:layout_constraintStart_toEndOf="@+id/common_3"/>
+
+        <include
+            android:id="@+id/common_5"
+            layout="@layout/item_select_card"
+            android:layout_width="@dimen/card_width_big"
+            android:layout_height="@dimen/card_height_big"
+            android:layout_marginStart="@dimen/main_card_margin_2"
+            app:layout_constraintTop_toTopOf="@+id/common_4"
+            app:layout_constraintStart_toEndOf="@+id/common_4"/>
+
+        <!--   111111111111111111111111111111111111111111111111111111111111     - -->
+
+        <TextView
+            android:id="@+id/title2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/your_zone"
+            android:textSize="@dimen/cal_title"
+            android:layout_marginTop="@dimen/main_top_margin"
+            android:layout_marginStart="@dimen/main_card_margin"
+            app:layout_constraintTop_toBottomOf="@+id/common_1"
+            app:layout_constraintStart_toStartOf="parent"
+            />
+
+        <TextView
+            android:id="@+id/title2_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cal_title_desc_2"
+            android:textSize="@dimen/cal_title_desc"
+            android:layout_marginStart="@dimen/main_card_margin"
+            app:layout_constraintBottom_toBottomOf="@+id/title2"
+            app:layout_constraintStart_toEndOf="@+id/title2"/>
+
+        <include
+            android:id="@+id/mine_1"
+            layout="@layout/item_select_card"
+            android:layout_width="@dimen/card_width_big"
+            android:layout_height="@dimen/card_height_big"
+            android:layout_marginTop="@dimen/main_top_margin"
+            android:layout_marginStart="@dimen/main_card_margin"
+            app:layout_constraintTop_toBottomOf="@+id/title2"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <include
+            android:id="@+id/mine_2"
+            layout="@layout/item_select_card"
+            android:layout_width="@dimen/card_width_big"
+            android:layout_height="@dimen/card_height_big"
+            android:layout_marginStart="@dimen/main_card_margin"
+            app:layout_constraintTop_toTopOf="@+id/mine_1"
+            app:layout_constraintStart_toEndOf="@+id/mine_1"/>
+
+        <!--   2222222222222222222222222222222222222222222222222222222222     - -->
+
+        <TextView
+            android:id="@+id/title3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rival_zone"
+            android:textSize="@dimen/cal_title"
+            android:layout_marginTop="@dimen/main_top_margin"
+            android:layout_marginStart="@dimen/main_card_margin"
+            app:layout_constraintTop_toBottomOf="@+id/mine_1"
+            app:layout_constraintStart_toStartOf="parent"
+            />
+
+        <TextView
+            android:id="@+id/title3_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cal_title_desc_3"
+            android:textSize="@dimen/cal_title_desc"
+            android:layout_marginStart="@dimen/main_card_margin"
+            app:layout_constraintBottom_toBottomOf="@+id/title3"
+            app:layout_constraintStart_toEndOf="@+id/title3"/>
+
+        <include
+            android:id="@+id/rival_1"
+            layout="@layout/item_select_card"
+            android:layout_width="@dimen/card_width_big"
+            android:layout_height="@dimen/card_height_big"
+            android:layout_marginTop="@dimen/main_top_margin"
+            android:layout_marginStart="@dimen/main_card_margin"
+            app:layout_constraintTop_toBottomOf="@+id/title3"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <include
+            android:id="@+id/rival_2"
+            layout="@layout/item_select_card"
+            android:layout_width="@dimen/card_width_big"
+            android:layout_height="@dimen/card_height_big"
+            android:layout_marginStart="@dimen/main_card_margin"
+            app:layout_constraintTop_toTopOf="@+id/rival_1"
+            app:layout_constraintStart_toEndOf="@+id/rival_1"/>
+
+        <Button
+            android:id="@+id/calculate_win_rate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cal_win_rate"
+            android:layout_marginTop="@dimen/main_top_margin"
+            android:layout_marginStart="@dimen/main_card_margin"
+            app:layout_constraintTop_toBottomOf="@+id/rival_1"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <Button
+            android:id="@+id/calculate_cards"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cal_cards_val"
+            android:visibility="gone"
+            android:layout_marginTop="@dimen/main_top_margin"
+            android:layout_marginStart="@dimen/main_card_margin"
+            app:layout_constraintTop_toBottomOf="@+id/calculate_win_rate"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <Button
+            android:id="@+id/calculate_rivals"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cal_rivals_val"
+            android:layout_marginTop="@dimen/main_top_margin"
+            android:layout_marginStart="@dimen/main_card_margin"
+            app:layout_constraintTop_toBottomOf="@+id/calculate_cards"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <Button
+            android:id="@+id/clear_all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/clear_all"
+            android:layout_marginTop="@dimen/main_top_margin"
+            android:layout_marginStart="@dimen/main_card_margin"
+            app:layout_constraintTop_toBottomOf="@+id/calculate_rivals"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <TextView
+            android:id="@+id/show_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="@dimen/cal_title"
+            android:layout_marginTop="@dimen/main_top_margin"
+            android:layout_marginStart="@dimen/main_card_margin"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/clear_all"
+            android:visibility="gone"
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

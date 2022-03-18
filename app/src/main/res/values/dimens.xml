@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="card_width_big">60dp</dimen>
+    <dimen name="card_height_big">90dp</dimen>
+    <dimen name="card_icon_width">30dp</dimen>
+    <dimen name="main_card_margin">10dp</dimen>
+    <dimen name="main_card_margin_2">20dp</dimen>
+    <dimen name="main_top_margin">10dp</dimen>
+    <dimen name="author_bottom_margin">10dp</dimen>
+    <dimen name="cal_title">20sp</dimen>
+    <dimen name="cal_title_desc">12sp</dimen>
+    <dimen name="author">10sp</dimen>
+
+    <!--common title-->
+    <dimen name="back_height">43dp</dimen>
+    <dimen name="back_width">43dp</dimen>
+    <dimen name="back_padding">5dp</dimen>
+    <dimen name="back_padding_hor">12dp</dimen>
+    <dimen name="back_padding_ver">13dp</dimen>
+    <dimen name="back_margin_start">7dp</dimen>
+    <dimen name="back_margin_top">8dp</dimen>
+    <dimen name="title_margin_start">2.33dp</dimen>
+    <dimen name="line_height">0.33dp</dimen>
+    <dimen name="right_btn_size">14dp</dimen>
+    <dimen name="title_size">20sp</dimen>
+
+    <dimen name="info_margin_top">10dp</dimen>
+    <dimen name="info_margin_start">15dp</dimen>
+    <dimen name="info_title">30sp</dimen>
+    <dimen name="info_text">20sp</dimen>
+
+    <dimen name="rival_title_margin_top">10dp</dimen>
+    <dimen name="rival_title_margin_start">10dp</dimen>
+    <dimen name="rival_title_size">20sp</dimen>
+
+    <dimen name="supprot_margin_top">30dp</dimen>
+    <dimen name="support_title">20sp</dimen>
+</resources>

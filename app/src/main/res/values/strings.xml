@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">MiPoker</string>
+    <string name="public_zone">公共牌区</string>
+    <string name="your_zone">你的手牌</string>
+    <string name="rival_zone">对手手牌</string>
+    <string name="cal_win_rate">计算胜率(需填写对手手牌)</string>
+    <string name="cal_cards_val">Calculate Cards Value</string>
+    <string name="cal_rivals_val">计算对手手牌及胜率(不会参考填写的对手手牌)</string>
+    <string name="clear_all">Reset</string>
+    <string name="result_cards_val_default">当前牌力</string>
+    <string name="cal_title_desc_1">(公共牌区需要至少3张牌)</string>
+    <string name="cal_title_desc_2">(手牌必填)</string>
+    <string name="cal_title_desc_3">(选填)</string>
+
+    <string name="result_cars_val_invalid">输入错误，啥也不是</string>
+    <string name="result_cars_val_high_card">高牌</string>
+    <string name="result_cars_val_one_pair">对子</string>
+    <string name="result_cars_val_two_pairs">两对</string>
+    <string name="result_cars_val_three_of_a_kind">三条</string>
+    <string name="result_cars_val_straight">顺子</string>
+    <string name="result_cars_val_flush">同花</string>
+    <string name="result_cars_val_full_house">葫芦</string>
+    <string name="result_cars_val_four_of_a_kind">四条</string>
+    <string name="result_cars_val_straight_flush">同花顺</string>
+    <string name="result_cars_val_royal_flush">皇家同花顺</string>
+
+    <string name="info_title_1">学习资源</string>
+    <string name="info_title_2">牌型大小</string>
+    <string name="info_title_3">玩什么牌</string>
+
+    <string name="info_res_1">德州扑克基础知识常用概率表汇总（完整版）</string>
+    <string name="info_res_2">德州扑克的翻前策略有哪些?</string>
+    <string name="info_res_3">EV基础</string>
+    <string name="info_res_4">VPIP</string>
+    <string name="info_res_5">位置因素</string>
+    <string name="info_res_6">Pot Odds 底池赔率</string>
+    <string name="info_res_7">二四法则</string>
+    <string name="info_res_8">SPR详解</string>
+    <string name="info_res_9">Breakeven%-赔本的买卖可不能做</string>
+    <string name="info_res_10">下注的理由</string>
+    <string name="info_res_11">下注量</string>
+    <string name="info_res_12">Combos 组合学</string>
+    <string name="info_res_13">EV进阶</string>
+    <string name="info_res_14">底池赔率不够，隐含赔率来凑</string>
+
+    <string name="info_link_1">https://zhuanlan.zhihu.com/p/90516281</string>
+    <string name="info_link_2">https://www.zhihu.com/question/383133740/answer/1111999097</string>
+    <string name="info_link_3">http://mpv.videocc.net/f6b44040ea/c/f6b44040eae8076e5fe081c0bd7f72fc_2.mp4?pid=1527213122113X1000490</string>
+    <string name="info_link_4">http://mpv.videocc.net/f6b44040ea/d/f6b44040ea78fcc2b3e4787127810b0d_2.mp4?pid=1527215624815X1710631</string>
+    <string name="info_link_5">http://mpv.videocc.net/f6b44040ea/7/f6b44040ead9c093839d19e72e910757_2.mp4?pid=1527215641071X1295918</string>
+    <string name="info_link_6">http://mpv.videocc.net/f6b44040ea/3/f6b44040eaff3600ed7c91517e677263_2.mp4?pid=1527215678927X1512241</string>
+    <string name="info_link_7">http://mpv.videocc.net/f6b44040ea/4/f6b44040ea415f18414bf8f38bc9df04_2.mp4?pid=1527215306863X1182803</string>
+    <string name="info_link_8">http://mpv.videocc.net/f6b44040ea/1/f6b44040ea7f1007a475ca129f758461_2.mp4?pid=1527215336608X1824898</string>
+    <string name="info_link_9">http://mpv.videocc.net/f6b44040ea/7/f6b44040ea69ed5c783d865be14c8117_2.mp4?pid=1527215434785X1162455</string>
+    <string name="info_link_10">http://mpv.videocc.net/f6b44040ea/1/f6b44040ea3252f413ddae8c04575871_2.mp4?pid=1527215469164X1463024</string>
+    <string name="info_link_11">http://mpv.videocc.net/f6b44040ea/4/f6b44040eac42442a40554b39b52fd84_2.mp4?pid=1527215495871X1741779</string>
+    <string name="info_link_12">http://mpv.videocc.net/f6b44040ea/e/f6b44040eab1a8f0cdb935f71cd3f19e_2.mp4?pid=1527215516870X1057560</string>
+    <string name="info_link_13">http://mpv.videocc.net/f6b44040ea/b/f6b44040ea7916ef273b8688a58b54ab_2.mp4?pid=1527215537522X1392127</string>
+    <string name="info_link_14">http://mpv.videocc.net/f6b44040ea/4/f6b44040eaf684a20d21ffa831bcb104_2.mp4?pid=1527215560799X1258345</string>
+
+    <string name="rival_title_1">对手总牌型数：</string>
+    <string name="rival_title_2">对手获胜牌型数：</string>
+    <string name="rival_title_3">平局牌型数：</string>
+    <string name="rival_title_4">胜率：</string>
+
+    <string name="outs_title_1">剩余总情况数：</string>
+    <string name="outs_title_2">牌力上升的情况数：</string>
+
+    <string name="supprot_title">您的鼓励就是对我最大的支持！</string>
+
+    <string name="version">Version: 0.0.2</string>
+    <string name="author">Author: Johnny Deng</string>
+</resources>

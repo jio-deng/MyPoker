@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="@dimen/back_width"
+            android:layout_height="@dimen/back_height"
+            android:contentDescription="@null"
+            android:src="@drawable/icon_back"
+            android:paddingStart="@dimen/back_padding_hor"
+            android:paddingEnd="@dimen/back_padding_hor"
+            android:paddingTop="@dimen/back_padding_ver"
+            android:paddingBottom="@dimen/back_padding_ver"
+            android:visibility="gone"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/title_size"
+            android:textColor="@color/title"
+            android:layout_marginTop="@dimen/back_margin_top"
+            android:layout_marginStart="@dimen/title_margin_start"
+            android:visibility="gone"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            tools:text="title"/>
+
+        <View
+            android:id="@+id/view_title_line"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line_height"
+            android:background="@color/bg_line"
+            android:layout_marginTop="@dimen/back_margin_top"
+            android:visibility="gone"
+            app:layout_constraintTop_toBottomOf="@+id/iv_back"/>
+
+
+        <WebView
+            android:id="@+id/webview"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintTop_toBottomOf="@+id/view_title_line"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
